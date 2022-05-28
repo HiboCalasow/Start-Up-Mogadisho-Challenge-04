@@ -1,0 +1,174 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    padding: 0px;
+    color: white;
+
+}
+body{
+    background-color:#07010d ;
+}
+.container{
+
+    position: absolute;
+    background-color:#0d0118;
+     margin-left: 16rem;
+     margin-top: 10rem;
+    width: 59.3vw;
+    height: 55vh;
+    border-radius: 1rem;
+}
+
+
+
+
+.section1{
+   margin-left: 2rem;
+} 
+.color{
+    color:rgb(149, 44, 149);
+}
+.float1{
+   float: left;
+   margin-left: 2rem;
+   
+}
+
+.img{
+    margin-left: 25rem;
+    position: absolute;
+    width: 30vw;
+    height: 55vh;
+    margin-top: -11.6rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: linear-gradient(rgba(51, 30, 79,0.7),rgba(51, 30, 79,0.7)) ,url('./images/image-header-desktop.jpg')  center/cover no-repeat ;
+   
+}
+@media only screen and  (max-width:1068px) {
+
+    .container{
+        
+        margin-left: 8rem;
+        
+        
+       
+    }
+}
+/* #Desktop */
+
+@media only screen and  (max-width:768px) {
+
+    .container{
+        
+        margin-left: 8rem;
+        width: 65.3vw;
+        height: 50vh;
+        
+       
+    }
+    .section1 h1{
+        font-size: 1.5rem;
+        margin-left: -30px;
+    }
+    .section1  p{
+        font-size:11px;
+        margin-left: -30px;
+    }
+    .float1{
+        font-size:0.6rem ;
+        margin-top: 1rem;
+        margin-left: 40px;
+    }
+    .img{
+        margin-left: 17rem;
+        height: 50vh;
+      margin-top: -8.3rem;
+
+    }
+}
+/* #mobile */
+
+@media only screen and  (max-width:435px) {
+
+    .container{
+        
+        margin-left: 6rem;
+        width: 55.3vw;
+        height: 90vh;
+        margin-top:1.5rem;
+        
+       
+    }
+    .section1 h1{
+        text-align: center;
+        white-space: pre-line;
+        font-size: 1rem;
+        align-items: center;
+        margin-left: -1rem;
+        margin-top: 11rem;
+    
+        
+    }
+    /* .section1 h1::before{
+        content:"Get  insights that \A "
+    } */
+    .section1 h1 br{
+        display: none;
+    
+    }
+    .section1  p{
+        font-size:11px;
+        margin-left: -15px;
+        margin-top: 0rem;
+        text-align: center;
+        white-space: pre-line;
+        line-height: 1.2rem;
+
+        
+    }
+    .section1  p br{
+        display: none;
+
+    }
+    .count1{
+        margin-top: -1rem;
+        margin-left: 4rem;
+        position:absolute;
+    }
+    .prag1{
+        margin-top: -1px;
+        margin-left: 3.5rem;
+    }
+    .count2{
+        margin-left: -4.5rem;
+        margin-top: 2rem;
+    }
+    .prag2{
+        margin-left: -5rem;
+        margin-top: -12px;
+    }
+
+    .count3{
+      margin-left: 4rem;
+      margin-top: 0.5rem;
+    }
+    .prag3{
+        margin-left: 4rem;
+    }
+    
+    
+       .flex{
+       position: relative;
+
+       }
+    .img{
+        margin-left: 0rem;
+        width: 55.5vw;
+        height: 30vh;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 0px;
+        margin-top: -21rem;
+
+    }
+}
